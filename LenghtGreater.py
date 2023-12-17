@@ -10,6 +10,6 @@ def find_words(words, H):
             result.append(i)
     return result
 word_list = ["clue", "christmas", "news", "introduction", "newspaper", "fueles"]
-H = 6
-long_words = find_words(word_list, H)
-print(f"Words longer than {H} characters: {long_words}")
+L = 6
+long_words = find_words(word_list, L)
+print(f"Words longer than {L} characters: {long_words}")
